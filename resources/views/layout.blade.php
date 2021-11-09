@@ -22,7 +22,8 @@
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="{{url('admin/dashboard')}}">Admin Pannel</a>
+            
+            <a class="navbar-brand ps-3"  href="{{url('admin/dashboard')}}">Admin Pannel</a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -65,7 +66,7 @@
                             </div>
 
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa fa-align-justify"></i></div>
                                 Post
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
@@ -87,7 +88,7 @@
                             </a>
 
                             <a class="nav-link" href="{{url('admin/setting')}}">
-                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa fa-cogs"></i></div>
                                 Settings
                             </a>
                         </div>

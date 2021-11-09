@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers; 
 
 use Illuminate\Http\Request;
 
@@ -16,7 +16,7 @@ class CategoryController extends Controller
     public function index()
     {
         $data=Category::all();
-        return view('backend.category.index',['data'=>$data],);
+        return view('backend.category.index',['data'=>$data]);
     }
 
     /**
